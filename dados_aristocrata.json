@@ -1,0 +1,76 @@
+{
+  "demo": true,
+  "marca": "O Aristocrata",
+  "mes": "Setembro 2026",
+  "diaDoMes": 17,
+  "diasNoMes": 30,
+  "meta": { "receita": 3847500, "vendas": 26279, "ticket": 146.41 },
+  "realizado": { "receita": 2110000, "vendas": 14452 },
+  "semanas": [
+    { "label": "01–07", "dias": 7, "metaReceita": 897750, "realizadoReceita": 820000 },
+    { "label": "08–14", "dias": 7, "metaReceita": 897750, "realizadoReceita": 910000 },
+    { "label": "15–21", "dias": 7, "metaReceita": 897750, "realizadoReceita": 380000, "parcial": true },
+    { "label": "22–28", "dias": 7, "metaReceita": 897750, "realizadoReceita": 0 },
+    { "label": "29–30", "dias": 2, "metaReceita": 256500, "realizadoReceita": 0 }
+  ],
+  "canais": [
+    { "canal": "Meta Ads", "tipo": "Pago", "metaReceita": 2361920.51, "metaVendas": 16680, "ticket": 141.60, "share": 61.4, "realizadoReceita": 1320000, "atribuicao": "ok" },
+    { "canal": "Google Ads", "tipo": "Pago", "metaReceita": 341792.16, "metaVendas": 2293, "ticket": 149.04, "share": 8.9, "realizadoReceita": 205000, "atribuicao": "ok" },
+    { "canal": "Grupos WhatsApp", "tipo": "Grupos WhatsApp", "metaReceita": 500000, "metaVendas": 2853, "ticket": 175.28, "share": 13.0, "realizadoReceita": 240000, "atribuicao": "ok" },
+    { "canal": "Influenciador", "tipo": "Influenciador", "metaReceita": 420000, "metaVendas": 2965, "ticket": 141.64, "share": 10.9, "realizadoReceita": 176000, "atribuicao": "parcial" },
+    { "canal": "Orgânico / Social", "tipo": "Orgânico", "metaReceita": 78612.31, "metaVendas": 536, "ticket": 146.57, "share": 2.0, "realizadoReceita": 41000, "atribuicao": "ok" },
+    { "canal": "Direto", "tipo": "Direto", "metaReceita": 64381.71, "metaVendas": 464, "ticket": 138.67, "share": 1.7, "realizadoReceita": 33000, "atribuicao": "ok" },
+    { "canal": "listmonk", "tipo": "CRM", "metaReceita": 49398.73, "metaVendas": 277, "ticket": 178.12, "share": 1.3, "realizadoReceita": 21000, "atribuicao": "ok" },
+    { "canal": "WhatsApp", "tipo": "WhatsApp", "metaReceita": 8009.66, "metaVendas": 50, "ticket": 159.89, "share": 0.2, "realizadoReceita": 4200, "atribuicao": "ok" },
+    { "canal": "Facebook Unattributed", "tipo": "Pago (não atrib.)", "metaReceita": 6985.03, "metaVendas": 54, "ticket": 129.94, "share": 0.2, "realizadoReceita": 3500, "atribuicao": "parcial" },
+    { "canal": "wa", "tipo": "WhatsApp", "metaReceita": 3056.32, "metaVendas": 21, "ticket": 147.22, "share": 0.1, "realizadoReceita": 1500, "atribuicao": "ok" },
+    { "canal": "rptn", "tipo": "Outros", "metaReceita": 2822.12, "metaVendas": 15, "ticket": 192.55, "share": 0.1, "realizadoReceita": 900, "atribuicao": "ok" },
+    { "canal": "Email/SMS", "tipo": "CRM", "metaReceita": 2555.71, "metaVendas": 17, "ticket": 149.47, "share": 0.1, "realizadoReceita": 1100, "atribuicao": "ok" },
+    { "canal": "Outros", "tipo": "Outros", "metaReceita": 7965.74, "metaVendas": 54, "ticket": 148.18, "share": 0.2, "realizadoReceita": 2800, "atribuicao": "parcial" }
+  ],
+  "areas": [
+    {
+      "resp": "Sabrina", "titulo": "Criativo — Sabrina",
+      "kpis": [
+        { "nome": "Criativos produzidos / semana (vídeo + imagem)", "valor": 12, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Criativos novos no ar / semana", "valor": 8, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Vencedores novos / semana", "valor": 2, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Receita de cliente novo", "valor": 640000, "fmt": "money", "fonte": "Solomon" },
+        { "nome": "ROAS 7d-click, cliente novo", "valor": 2.8, "fmt": "x", "fonte": "Solomon" },
+        { "nome": "Frequência", "valor": 1.9, "fmt": "dec", "fonte": "Solomon" },
+        { "nome": "Valor gasto em mídia (Meta Ads) / semana", "valor": 228000, "fmt": "money", "fonte": "Solomon" }
+      ]
+    },
+    {
+      "resp": "Julia", "titulo": "Orgânico — Julia",
+      "kpis": [
+        { "nome": "Conteúdo no ar / semana", "valor": 10, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Engajamento Qualificado (EQ)", "valor": 2.19, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Conteúdos Campeões", "valor": 3, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Valor de conversão do orgânico", "valor": 61000, "fmt": "money", "fonte": "Solomon" },
+        { "nome": "Nº de cliques", "valor": 8400, "fmt": "num", "fonte": "Solomon" },
+        { "nome": "Taxa de conversão", "valor": 1.6, "fmt": "pct", "fonte": "Solomon" },
+        { "nome": "Visualizações de perfil", "valor": 42000, "fmt": "num", "fonte": "Solomon" }
+      ]
+    },
+    {
+      "resp": "Marcela", "titulo": "Influencers & Afiliados — Marcela",
+      "kpis": [
+        { "nome": "ROAS Afiliados", "valor": 3.1, "fmt": "x", "fonte": "Shopify (cupom)", "atribuicao": "parcial" },
+        { "nome": "Afiliados Ativos / mês", "valor": 24, "fmt": "num", "fonte": "planilha" },
+        { "nome": "ROI Influencers", "valor": 1.8, "fmt": "x", "fonte": "planilha" },
+        { "nome": "Compliance de Entrega", "valor": 86, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Valor em Vendas de Cupom / semana", "valor": 24000, "fmt": "money", "fonte": "Shopify" }
+      ]
+    },
+    {
+      "resp": "Uri", "titulo": "Marketplace — Uri", "atribuicao": "parcial",
+      "kpis": [
+        { "nome": "Faturamento Bruto", "valor": 180000, "fmt": "money", "fonte": "planilha" },
+        { "nome": "CMV", "valor": 96000, "fmt": "money", "fonte": "planilha" },
+        { "nome": "TACOS do canal", "valor": 14, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Cobertura de estoque full", "valor": 38, "fmt": "dias", "fonte": "planilha" }
+      ]
+    }
+  ]
+}
