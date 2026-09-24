@@ -1,0 +1,94 @@
+{
+  "demo": true,
+  "marca": "Fishermans",
+  "periodo": "SET–DEZ 2026",
+  "mesCorrente": "SET",
+  "mesCorrenteLabel": "Setembro",
+  "diaDoMes": 22,
+  "diasNoMes": 30,
+  "quadMeta": 11700000,
+  "meses": [
+    { "mes": "SET", "meta": 2100000, "realizado": 1475000, "corrente": true },
+    { "mes": "OUT", "meta": 2550000, "realizado": null },
+    { "mes": "NOV", "meta": 3200000, "realizado": null },
+    { "mes": "DEZ", "meta": 3850000, "realizado": null }
+  ],
+  "evoSemanas": [
+    { "label": "28/07", "receita": 360000 },
+    { "label": "04/08", "receita": 385000 },
+    { "label": "11/08", "receita": 402000 },
+    { "label": "18/08", "receita": 420000 },
+    { "label": "25/08", "receita": 468000 },
+    { "label": "01/09", "receita": 520000 },
+    { "label": "08/09", "receita": 560000 },
+    { "label": "15/09", "receita": 540000 }
+  ],
+  "canais": [
+    { "canal": "Site D2C (Meta + orgânico)", "resp": "Jorge", "fonte": "Shopify", "consolidavel": true, "run": 850000, "quad": 5300000,
+      "meta": { "SET": 1000000, "OUT": 1150000, "NOV": 1450000, "DEZ": 1700000 }, "real": { "SET": 740000 } },
+    { "canal": "Marketplaces (todos)", "resp": "Uri", "fonte": "planilha", "consolidavel": true, "atribuicao": "parcial", "run": 330000, "quad": 2850000,
+      "meta": { "SET": 550000, "OUT": 650000, "NOV": 750000, "DEZ": 900000 }, "real": { "SET": 405000 } },
+    { "canal": "B2B Atacado (líquido)", "resp": "Leandro", "fonte": "planilha", "consolidavel": true, "run": 350000, "quad": 2640000,
+      "meta": { "SET": 450000, "OUT": 570000, "NOV": 720000, "DEZ": 900000 }, "real": { "SET": 330000 } },
+    { "canal": "Influencers de pesca", "resp": "Marcela", "fonte": "planilha", "consolidavel": false, "atribuicao": "parcial", "run": 0, "quad": 910000,
+      "meta": { "SET": 100000, "OUT": 180000, "NOV": 280000, "DEZ": 350000 }, "real": { "SET": 62000 } }
+  ],
+  "areas": [
+    {
+      "resp": "Jorge", "titulo": "Criativos — Jorge",
+      "kpis": [
+        { "nome": "Receita de cliente novo", "valor": 410000, "fmt": "money", "fonte": "Solomon" },
+        { "nome": "ROAS 7d-click", "valor": 3.2, "fmt": "x", "fonte": "Solomon" },
+        { "nome": "ROAS cliente novo", "valor": 2.4, "fmt": "x", "fonte": "Solomon" },
+        { "nome": "Frequência (15d)", "valor": 2.1, "fmt": "dec", "fonte": "Solomon" },
+        { "nome": "Receita líquida / semana", "valor": 386000, "fmt": "money", "fonte": "Solomon" },
+        { "nome": "Gasto em mídia / semana", "valor": 132000, "fmt": "money", "fonte": "Solomon" },
+        { "nome": "MER da semana", "valor": 2.9, "fmt": "x", "fonte": "Solomon" },
+        { "nome": "Criativos produzidos", "valor": 14, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Criativos no ar", "valor": 9, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Vencedores novos", "valor": 3, "fmt": "num", "fonte": "planilha" }
+      ]
+    },
+    {
+      "resp": "Uri", "titulo": "Marketplace — Uri", "atribuicao": "parcial",
+      "kpis": [
+        { "nome": "Faturamento bruto", "valor": 405000, "fmt": "money", "fonte": "planilha" },
+        { "nome": "CMV", "valor": 205000, "fmt": "money", "fonte": "planilha" },
+        { "nome": "TACOS do canal", "valor": 13, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Cobertura de estoque no Full", "valor": 42, "fmt": "dias", "fonte": "planilha" }
+      ]
+    },
+    {
+      "resp": "Marcela", "titulo": "Influencers & Afiliados — Marcela", "atribuicao": "parcial",
+      "kpis": [
+        { "nome": "ROAS Afiliados", "valor": 3.4, "fmt": "x", "fonte": "planilha" },
+        { "nome": "Afiliados Ativos / mês", "valor": 28, "fmt": "num", "fonte": "planilha" },
+        { "nome": "ROAS Influencers", "valor": 2.0, "fmt": "x", "fonte": "planilha" },
+        { "nome": "Compliance de Entrega", "valor": 88, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Valor em Vendas de Cupom / semana", "valor": 31000, "fmt": "money", "fonte": "planilha" }
+      ]
+    },
+    {
+      "resp": "Julia", "titulo": "Orgânico — Julia",
+      "kpis": [
+        { "nome": "Conteúdo no ar / semana", "valor": 12, "fmt": "num", "fonte": "planilha", "sub": [ {"label":"story","valor":6}, {"label":"feed","valor":4}, {"label":"reels","valor":2} ] },
+        { "nome": "Engajamento Qualificado (EQ)", "valor": 2.3, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Conteúdos Campeões", "valor": 3, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Visualizações gerais do perfil", "valor": 51000, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Cliques gerados", "valor": 9200, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Vendas", "valor": 320, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Valor de conversão", "valor": 48000, "fmt": "money", "fonte": "planilha" }
+      ]
+    },
+    {
+      "resp": "Leandro", "titulo": "B2B — Leandro",
+      "kpis": [
+        { "nome": "Faturamento total do canal", "valor": 330000, "fmt": "money", "fonte": "planilha" },
+        { "nome": "% do time de vendas na meta", "valor": 72, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Taxa de MQL gerados", "valor": 34, "fmt": "pct", "fonte": "planilha" },
+        { "nome": "Ligações feitas", "valor": 420, "fmt": "num", "fonte": "planilha" },
+        { "nome": "Conversões realizadas", "valor": 58, "fmt": "num", "fonte": "planilha" }
+      ]
+    }
+  ]
+}
