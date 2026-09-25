@@ -1,93 +1,577 @@
 {
-  "demo": true,
+  "demo": false,
   "marca": "Fishermans",
   "periodo": "SET–DEZ 2026",
   "mesCorrente": "SET",
   "mesCorrenteLabel": "Setembro",
-  "diaDoMes": 22,
+  "diaDoMes": 24,
   "diasNoMes": 30,
   "quadMeta": 11700000,
   "meses": [
-    { "mes": "SET", "meta": 2100000, "realizado": 1475000, "corrente": true },
-    { "mes": "OUT", "meta": 2550000, "realizado": null },
-    { "mes": "NOV", "meta": 3200000, "realizado": null },
-    { "mes": "DEZ", "meta": 3850000, "realizado": null }
+    {
+      "mes": "SET",
+      "meta": 2100000,
+      "realizado": 559967,
+      "corrente": true
+    },
+    {
+      "mes": "OUT",
+      "meta": 2550000,
+      "realizado": null,
+      "corrente": false
+    },
+    {
+      "mes": "NOV",
+      "meta": 3200000,
+      "realizado": null,
+      "corrente": false
+    },
+    {
+      "mes": "DEZ",
+      "meta": 3850000,
+      "realizado": null,
+      "corrente": false
+    }
   ],
   "evoSemanas": [
-    { "label": "28/07", "receita": 360000 },
-    { "label": "04/08", "receita": 385000 },
-    { "label": "11/08", "receita": 402000 },
-    { "label": "18/08", "receita": 420000 },
-    { "label": "25/08", "receita": 468000 },
-    { "label": "01/09", "receita": 520000 },
-    { "label": "08/09", "receita": 560000 },
-    { "label": "15/09", "receita": 540000 }
+    {
+      "label": "31/08",
+      "receita": 408926
+    },
+    {
+      "label": "07/09",
+      "receita": 121845
+    },
+    {
+      "label": "14/09",
+      "receita": 179314
+    },
+    {
+      "label": "21/09",
+      "receita": 258808
+    },
+    {
+      "label": "28/09",
+      "receita": 0
+    },
+    {
+      "label": "05/10",
+      "receita": 0
+    },
+    {
+      "label": "12/10",
+      "receita": 0
+    },
+    {
+      "label": "19/10",
+      "receita": 0
+    }
   ],
   "canais": [
-    { "canal": "Site D2C (Meta + orgânico)", "resp": "Jorge", "fonte": "Shopify", "consolidavel": true, "run": 850000, "quad": 5300000,
-      "meta": { "SET": 1000000, "OUT": 1150000, "NOV": 1450000, "DEZ": 1700000 }, "real": { "SET": 740000 } },
-    { "canal": "Marketplaces (todos)", "resp": "Uri", "fonte": "planilha", "consolidavel": true, "atribuicao": "parcial", "run": 330000, "quad": 2850000,
-      "meta": { "SET": 550000, "OUT": 650000, "NOV": 750000, "DEZ": 900000 }, "real": { "SET": 405000 } },
-    { "canal": "B2B Atacado (líquido)", "resp": "Leandro", "fonte": "planilha", "consolidavel": true, "run": 350000, "quad": 2640000,
-      "meta": { "SET": 450000, "OUT": 570000, "NOV": 720000, "DEZ": 900000 }, "real": { "SET": 330000 } },
-    { "canal": "Influencers de pesca", "resp": "Marcela", "fonte": "planilha", "consolidavel": false, "atribuicao": "parcial", "run": 0, "quad": 910000,
-      "meta": { "SET": 100000, "OUT": 180000, "NOV": 280000, "DEZ": 350000 }, "real": { "SET": 62000 } }
+    {
+      "canal": "Site D2C (Meta + orgânico)",
+      "resp": "Jorge",
+      "fonte": "Shopify",
+      "consolidavel": true,
+      "run": 850000,
+      "quad": 5300000,
+      "meta": {
+        "SET": 1000000,
+        "OUT": 1150000,
+        "NOV": 1450000,
+        "DEZ": 1700000
+      },
+      "real": {
+        "SET": 47858
+      }
+    },
+    {
+      "canal": "Marketplaces (todos)",
+      "resp": "Uri",
+      "fonte": "planilha",
+      "consolidavel": true,
+      "atribuicao": "parcial",
+      "run": 330000,
+      "quad": 2850000,
+      "meta": {
+        "SET": 550000,
+        "OUT": 650000,
+        "NOV": 750000,
+        "DEZ": 900000
+      },
+      "real": {
+        "SET": 361295
+      }
+    },
+    {
+      "canal": "B2B Atacado",
+      "resp": "Leandro",
+      "fonte": "planilha",
+      "consolidavel": true,
+      "run": 350000,
+      "quad": 2640000,
+      "meta": {
+        "SET": 450000,
+        "OUT": 570000,
+        "NOV": 720000,
+        "DEZ": 900000
+      },
+      "real": {
+        "SET": 150814
+      }
+    },
+    {
+      "canal": "Influencers de pesca",
+      "resp": "Marcela",
+      "fonte": "planilha",
+      "consolidavel": false,
+      "atribuicao": "parcial",
+      "run": 0,
+      "quad": 910000,
+      "meta": {
+        "SET": 100000,
+        "OUT": 180000,
+        "NOV": 280000,
+        "DEZ": 350000
+      },
+      "real": {
+        "SET": 13593
+      }
+    }
   ],
   "areas": [
     {
-      "resp": "Jorge", "titulo": "Criativos — Jorge",
+      "resp": "Jorge",
+      "titulo": "Criativos — Jorge",
       "kpis": [
-        { "nome": "Receita de cliente novo", "valor": 410000, "fmt": "money", "fonte": "Solomon" },
-        { "nome": "ROAS 7d-click", "valor": 3.2, "fmt": "x", "fonte": "Solomon" },
-        { "nome": "ROAS cliente novo", "valor": 2.4, "fmt": "x", "fonte": "Solomon" },
-        { "nome": "Frequência (15d)", "valor": 2.1, "fmt": "dec", "fonte": "Solomon" },
-        { "nome": "Receita líquida / semana", "valor": 386000, "fmt": "money", "fonte": "Solomon" },
-        { "nome": "Gasto em mídia / semana", "valor": 132000, "fmt": "money", "fonte": "Solomon" },
-        { "nome": "MER da semana", "valor": 2.9, "fmt": "x", "fonte": "Solomon" },
-        { "nome": "Criativos produzidos", "valor": 14, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Criativos no ar", "valor": 9, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Vencedores novos", "valor": 3, "fmt": "num", "fonte": "planilha" }
+        {
+          "nome": "Criativos produzidos / semana",
+          "valor": 42,
+          "fmt": "num",
+          "fonte": "planilha",
+          "hist": [
+            23,
+            27,
+            32,
+            27,
+            42
+          ]
+        },
+        {
+          "nome": "Criativos novos no ar / semana",
+          "valor": 42,
+          "fmt": "num",
+          "fonte": "planilha",
+          "hist": [
+            10,
+            10,
+            8,
+            17,
+            21,
+            24,
+            35,
+            24,
+            32,
+            28,
+            27,
+            42
+          ]
+        },
+        {
+          "nome": "Vencedores novos / semana",
+          "valor": 7,
+          "fmt": "num",
+          "fonte": "planilha",
+          "hist": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            4,
+            5,
+            9,
+            8,
+            8,
+            6,
+            7
+          ]
+        },
+        {
+          "nome": "Receita de cliente novo (Meta)",
+          "valor": 41169,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            26981,
+            24174,
+            67669,
+            52888,
+            48273,
+            46702,
+            54293,
+            56936,
+            56964,
+            50286,
+            52453,
+            41169
+          ]
+        },
+        {
+          "nome": "ROAS 7d-click",
+          "valor": 1.71,
+          "fmt": "x",
+          "fonte": "planilha",
+          "hist": [
+            1.96,
+            3.05,
+            2.25,
+            2.74,
+            2.69,
+            2.79,
+            3.23,
+            3.56,
+            2.24,
+            2.39,
+            2.16,
+            1.71
+          ]
+        },
+        {
+          "nome": "ROAS cliente novo",
+          "valor": 2.02,
+          "fmt": "x",
+          "fonte": "planilha",
+          "hist": [
+            1.96,
+            3.05,
+            2.25,
+            2.74,
+            2.69,
+            2.79,
+            3.23,
+            3.56,
+            2.3,
+            2.46,
+            2.42,
+            2.02
+          ]
+        },
+        {
+          "nome": "Frequência",
+          "valor": 4.51,
+          "fmt": "dec",
+          "fonte": "planilha",
+          "hist": [
+            3.49,
+            3.37,
+            4.12,
+            4.32,
+            4.28,
+            4.24,
+            4.29,
+            3.64,
+            5.03,
+            4.6,
+            4.6,
+            4.51
+          ]
+        },
+        {
+          "nome": "Valor gasto em mídia (Meta Ads) — semana",
+          "valor": 46853,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            42414,
+            50524,
+            49074,
+            47808,
+            53582,
+            46853
+          ]
+        }
       ]
     },
     {
-      "resp": "Uri", "titulo": "Marketplace — Uri", "atribuicao": "parcial",
+      "resp": "Uri",
+      "titulo": "Marketplace — Uri",
+      "atribuicao": "parcial",
       "kpis": [
-        { "nome": "Faturamento bruto", "valor": 405000, "fmt": "money", "fonte": "planilha" },
-        { "nome": "CMV", "valor": 205000, "fmt": "money", "fonte": "planilha" },
-        { "nome": "TACOS do canal", "valor": 13, "fmt": "pct", "fonte": "planilha" },
-        { "nome": "Cobertura de estoque no Full", "valor": 42, "fmt": "dias", "fonte": "planilha" }
+        {
+          "nome": "Faturamento bruto dos canais",
+          "valor": 117346,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            88621,
+            94978,
+            95702,
+            86880,
+            104650,
+            94993,
+            104684,
+            139265,
+            117346
+          ]
+        },
+        {
+          "nome": "CMV",
+          "valor": 11,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            11341,
+            15233,
+            11
+          ]
+        },
+        {
+          "nome": "TACOS do canal",
+          "valor": 4.6,
+          "fmt": "pct",
+          "fonte": "planilha",
+          "hist": [
+            7.6,
+            5.1,
+            5.1,
+            7.3,
+            6.5,
+            6.32,
+            7.79,
+            3.7,
+            4.87,
+            5.1,
+            4.2,
+            4.6
+          ]
+        },
+        {
+          "nome": "Cobertura de estoque no Full (dias)",
+          "valor": 45,
+          "fmt": "dias",
+          "fonte": "planilha",
+          "hist": [
+            44,
+            30,
+            15,
+            14,
+            7,
+            30,
+            60,
+            45,
+            47,
+            45,
+            60,
+            45
+          ]
+        }
       ]
     },
     {
-      "resp": "Marcela", "titulo": "Influencers & Afiliados — Marcela", "atribuicao": "parcial",
+      "resp": "Marcela",
+      "titulo": "Influencers & Afiliados — Marcela",
+      "atribuicao": "parcial",
       "kpis": [
-        { "nome": "ROAS Afiliados", "valor": 3.4, "fmt": "x", "fonte": "planilha" },
-        { "nome": "Afiliados Ativos / mês", "valor": 28, "fmt": "num", "fonte": "planilha" },
-        { "nome": "ROAS Influencers", "valor": 2.0, "fmt": "x", "fonte": "planilha" },
-        { "nome": "Compliance de Entrega", "valor": 88, "fmt": "pct", "fonte": "planilha" },
-        { "nome": "Valor em Vendas de Cupom / semana", "valor": 31000, "fmt": "money", "fonte": "planilha" }
+        {
+          "nome": "Valor em Vendas de Cupom",
+          "valor": 3536,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            4273,
+            5784,
+            3536
+          ]
+        },
+        {
+          "nome": "ROAS Afiliados",
+          "valor": 13,
+          "fmt": "x",
+          "fonte": "planilha",
+          "hist": [
+            5.7,
+            8.7,
+            5.4,
+            8.2,
+            6.89,
+            6.86,
+            6.81,
+            7.75,
+            7.75,
+            7.75,
+            13
+          ]
+        },
+        {
+          "nome": "Afiliados Ativos / mês",
+          "valor": 36,
+          "fmt": "num",
+          "fonte": "planilha",
+          "hist": [
+            52,
+            52,
+            52,
+            52,
+            33,
+            33,
+            44,
+            52,
+            60,
+            75,
+            75,
+            36
+          ]
+        },
+        {
+          "nome": "ROAS Influencers",
+          "valor": 0.5,
+          "fmt": "x",
+          "fonte": "planilha",
+          "hist": [
+            3.5,
+            2.6,
+            2.8,
+            1.8,
+            1.3,
+            1.9,
+            6.62,
+            7,
+            7,
+            0.8,
+            0.96,
+            0.5
+          ]
+        },
+        {
+          "nome": "Compliance de Entrega",
+          "valor": 45,
+          "fmt": "pct",
+          "fonte": "planilha",
+          "hist": [
+            10,
+            70,
+            90,
+            100,
+            10,
+            22,
+            33,
+            55,
+            100,
+            20,
+            30,
+            45
+          ]
+        }
       ]
     },
     {
-      "resp": "Julia", "titulo": "Orgânico — Julia",
+      "resp": "Julia",
+      "titulo": "Orgânico — Julia",
       "kpis": [
-        { "nome": "Conteúdo no ar / semana", "valor": 12, "fmt": "num", "fonte": "planilha", "sub": [ {"label":"story","valor":6}, {"label":"feed","valor":4}, {"label":"reels","valor":2} ] },
-        { "nome": "Engajamento Qualificado (EQ)", "valor": 2.3, "fmt": "pct", "fonte": "planilha" },
-        { "nome": "Conteúdos Campeões", "valor": 3, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Visualizações gerais do perfil", "valor": 51000, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Cliques gerados", "valor": 9200, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Vendas", "valor": 320, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Valor de conversão", "valor": 48000, "fmt": "money", "fonte": "planilha" }
+        {
+          "nome": "Conteúdo no ar / semana",
+          "valor": 13,
+          "fmt": "num",
+          "fonte": "planilha",
+          "hist": [
+            5,
+            4,
+            10,
+            16,
+            10,
+            5,
+            9,
+            10,
+            8,
+            11,
+            13
+          ]
+        },
+        {
+          "nome": "Engajamento Qualificado (EQ)",
+          "valor": 1.72,
+          "fmt": "pct",
+          "fonte": "planilha",
+          "hist": [
+            0.56,
+            0.1,
+            1,
+            0.44,
+            0.36,
+            1.8,
+            0.71,
+            4.32,
+            1.58,
+            2.19,
+            1.72
+          ]
+        },
+        {
+          "nome": "Conteúdos Campeões",
+          "valor": 3,
+          "fmt": "num",
+          "fonte": "planilha",
+          "hist": [
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3
+          ]
+        }
       ]
     },
     {
-      "resp": "Leandro", "titulo": "B2B — Leandro",
+      "resp": "Leandro",
+      "titulo": "B2B — Leandro",
       "kpis": [
-        { "nome": "Faturamento total do canal", "valor": 330000, "fmt": "money", "fonte": "planilha" },
-        { "nome": "% do time de vendas na meta", "valor": 72, "fmt": "pct", "fonte": "planilha" },
-        { "nome": "Taxa de MQL gerados", "valor": 34, "fmt": "pct", "fonte": "planilha" },
-        { "nome": "Ligações feitas", "valor": 420, "fmt": "num", "fonte": "planilha" },
-        { "nome": "Conversões realizadas", "valor": 58, "fmt": "num", "fonte": "planilha" }
+        {
+          "nome": "Faturamento total",
+          "valor": 93604,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            45727,
+            77253,
+            39086,
+            124320,
+            38417,
+            127442,
+            191271,
+            273016,
+            313933,
+            17161,
+            40049,
+            93604
+          ]
+        },
+        {
+          "nome": "% do time de vendas na meta",
+          "valor": 26.7,
+          "fmt": "pct",
+          "fonte": "planilha",
+          "hist": [
+            18.3,
+            49.3,
+            64.9,
+            114.4,
+            15.4,
+            51,
+            76.5,
+            109.2,
+            125.6,
+            4.9,
+            11.4,
+            26.7
+          ]
+        }
       ]
     }
   ]
