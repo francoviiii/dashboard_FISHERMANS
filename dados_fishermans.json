@@ -11,7 +11,7 @@
     {
       "mes": "SET",
       "meta": 2100000,
-      "realizado": 560646,
+      "realizado": 560622,
       "corrente": true
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "label": "21/09",
-      "receita": 259487
+      "receita": 259463
     },
     {
       "label": "28/09",
@@ -82,7 +82,7 @@
         "DEZ": 1700000
       },
       "real": {
-        "SET": 48537
+        "SET": 48514
       }
     },
     {
