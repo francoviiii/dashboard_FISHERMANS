@@ -4,14 +4,14 @@
   "periodo": "SET–DEZ 2026",
   "mesCorrente": "SET",
   "mesCorrenteLabel": "Setembro",
-  "diaDoMes": 24,
+  "diaDoMes": 25,
   "diasNoMes": 30,
   "quadMeta": 11700000,
   "meses": [
     {
       "mes": "SET",
       "meta": 2100000,
-      "realizado": 560211,
+      "realizado": 560334,
       "corrente": true
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "label": "21/09",
-      "receita": 259052
+      "receita": 259175
     },
     {
       "label": "28/09",
@@ -82,7 +82,7 @@
         "DEZ": 1700000
       },
       "real": {
-        "SET": 48103
+        "SET": 48225
       }
     },
     {
