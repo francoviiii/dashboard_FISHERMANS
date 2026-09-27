@@ -11,7 +11,7 @@
     {
       "mes": "SET",
       "meta": 2100000,
-      "realizado": 562645,
+      "realizado": 562878,
       "corrente": true
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "label": "21/09",
-      "receita": 261486
+      "receita": 261719
     },
     {
       "label": "28/09",
@@ -82,7 +82,7 @@
         "DEZ": 1700000
       },
       "real": {
-        "SET": 50537
+        "SET": 50769
       }
     },
     {
@@ -144,6 +144,26 @@
       "resp": "Jorge",
       "titulo": "Criativos — Jorge",
       "kpis": [
+        {
+          "nome": "Receita liquida Site",
+          "valor": 0,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
         {
           "nome": "Criativos produzidos / semana",
           "valor": 42,
@@ -304,6 +324,9 @@
           "fmt": "money",
           "fonte": "planilha",
           "hist": [
+            0,
+            0,
+            0,
             88621,
             94978,
             95702,
