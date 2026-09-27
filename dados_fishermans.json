@@ -11,7 +11,7 @@
     {
       "mes": "SET",
       "meta": 2100000,
-      "realizado": 562552,
+      "realizado": 562645,
       "corrente": true
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "label": "21/09",
-      "receita": 261393
+      "receita": 261486
     },
     {
       "label": "28/09",
@@ -82,7 +82,7 @@
         "DEZ": 1700000
       },
       "real": {
-        "SET": 50444
+        "SET": 50537
       }
     },
     {
@@ -379,6 +379,15 @@
           "fmt": "money",
           "fonte": "planilha",
           "hist": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             4273,
             5784,
             3536
@@ -469,6 +478,26 @@
       "resp": "Julia",
       "titulo": "Orgânico — Julia",
       "kpis": [
+        {
+          "nome": "Faturamento / Vendas",
+          "valor": 0,
+          "fmt": "money",
+          "fonte": "planilha",
+          "hist": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
         {
           "nome": "Conteúdo no ar / semana",
           "valor": 13,
